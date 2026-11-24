@@ -66,7 +66,7 @@ Os dados são obtidos por meio da API de Dados Abertos do Ministério da Saúde,
 
 ### Autores
 
-Willyan de Lima Farias
+Willyan de Lima Farias e
 Pedro Frazão
 
 ### Instalação
