@@ -1,0 +1,23 @@
+:root { --fundo:#f5f6f4; --tinta:#1c2b2a; --suave:#5d6c6a; --linha:#d9dedc; --verde:#0f6b5c; }
+* { box-sizing: border-box; }
+body { margin:0; font-family:"Segoe UI",system-ui,sans-serif; background:var(--fundo); color:var(--tinta); }
+.app { display:grid; grid-template-columns:260px 1fr; min-height:100vh; }
+aside { background:#fff; border-right:1px solid var(--linha); padding:20px 16px; }
+aside h2 { font-size:1rem; margin:0 0 16px; }
+aside label { display:block; font-size:.85rem; color:var(--suave); margin-bottom:14px; }
+aside select { width:100%; margin-top:4px; padding:7px; border:1px solid var(--linha); border-radius:6px; }
+main { padding:24px; max-width:1100px; }
+h1 { font-size:1.4rem; margin:0 0 4px; }
+.suave { color:var(--suave); font-size:.85rem; }
+.indicadores { display:flex; gap:12px; flex-wrap:wrap; margin:16px 0; }
+.ind { background:#fff; border:1px solid var(--linha); border-radius:8px; padding:12px 16px; min-width:150px; }
+.ind b { display:block; font-size:1.6rem; color:var(--verde); }
+.ind span { font-size:.8rem; color:var(--suave); }
+.graficos { display:grid; grid-template-columns:repeat(auto-fit,minmax(380px,1fr)); gap:16px; }
+.caixa { background:#fff; border:1px solid var(--linha); border-radius:8px; padding:14px; margin-bottom:16px; }
+.caixa h3 { font-size:.95rem; margin:0 0 10px; }
+table { border-collapse:collapse; width:100%; font-size:.85rem; }
+th, td { text-align:left; padding:6px 8px; border-bottom:1px solid var(--linha); }
+.rolagem { overflow-x:auto; }
+.texto { max-width:78ch; line-height:1.5; }
+@media (max-width:760px) { .app { grid-template-columns:1fr; } }
