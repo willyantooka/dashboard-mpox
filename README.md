@@ -2,7 +2,7 @@
 
 Dashboard interativo para análise das notificações de Mpox no Brasil, desenvolvido com React e consumo de dados da API de Dados Abertos do Ministério da Saúde.
 
-🔗 **[Acessar o dashboard online](LINK-DO-DASHBOARD)**
+🔗 🔗 **[Acessar o dashboard online](https://dashboard-mpox.onrender.com)**
 
 ---
 
