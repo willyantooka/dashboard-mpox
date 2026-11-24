@@ -64,6 +64,11 @@ Os dados são obtidos por meio da API de Dados Abertos do Ministério da Saúde,
 - Node.js
 - npm
 
+### Autores
+
+Willyan de Lima Farias
+Pedro Frazão
+
 ### Instalação
 
 ```bash
@@ -71,3 +76,4 @@ git clone https://github.com/willyantooka/dashboard-mpox.git
 cd dashboard-mpox
 npm install
 npm run dev
+
